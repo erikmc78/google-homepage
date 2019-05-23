@@ -1,0 +1,46 @@
+body {
+    background-color: white;
+}
+
+.nav {
+    background-color: gray;
+    height: 40px;
+    width: 100%;
+    opacity: 0.3;
+}
+li {
+    display: inline;
+    padding: 10px; 
+}
+
+.logo {
+    position: fixed;
+    top: 30%;
+    left: 45%;
+    margin-top: -50px;
+    margin-left: -100px;
+    display: block;
+}
+
+#search {
+    position: fixed;
+    top: 35%;
+    left: 45%;
+    margin-top: 20px;
+}
+
+.find {
+    border: 1px solid grey;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.foot {
+    background-color: gray;
+    height: 40px;
+    width: 100%;
+    opacity: 0.4;
+    position: absolute;
+    bottom: 0;
+}
